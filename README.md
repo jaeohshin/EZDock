@@ -36,13 +36,7 @@ This repository contains a comprehensive pipeline designed to evaluate protein-l
 ### Testing the pipeline
 
 To test the robustness of this pipeline, we use the PDB IDs from LeakyPDB to obtain some free energy of binding results. The pipeline has error traps set up to capture and record any error encountered during the experiment. We will inspect the output files to investigate any causes of failure and seek to improve the pipeline this way.
-</font>
 
-### Electronic Lab Notebook (ELN)
-
-I keep an detailed, active log of activities I've been up to with this repo in the folder [``ELN``](https://github.com/meyresearch/SILVR2/tree/evaluation/ELN) as supplementary information, though all relevant information will be updated to this README document. Feel free to check them out!
-
-<font color='red'>
 ## Installation
 
 1. **Clone the Repository**:
@@ -82,10 +76,7 @@ Logs: Detailed logs of the docking process for troubleshooting.
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request with your improvements or bug fixes.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
+## Acknowledgments
 Vina: AutoDock Vina
 OpenEye: OpenEye Scientific Software
 References
