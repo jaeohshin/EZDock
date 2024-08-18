@@ -1078,16 +1078,16 @@ def split_sdf(input_sdf):
 
 ################################ OE PIPELINE ################################
 import glob
-all_ligands = glob.glob('Updated_Mpro_ligands/*.sdf')
+all_ligands = glob.glob('Ligand_Folder/*.sdf') # change this to the path where the ligands are stored
 
-for ligand_file in all_mpro_ligands:
+for ligand_file in all_ligands:
     
     os.system(f'cp {ligand_file} .')
     # ligand_file name without path name
     ligand_file = os.path.basename(ligand_file)
 
-    receptor_file = 'receptor.pdb'
-    complex_file = 'complex.pdb'
+    receptor_file = 'receptor.pdb' # change this to the name of the receptor
+    complex_file = 'complex.pdb' # change this to the name of the reference complex
     os.system(f'cp Complex_Folder/{complex_file} .') # change this to the path where the complexes are stored
     os.system(f'cp Receptor_Folder/{receptor_file} .') # change this to the path where the receptors are stored
 
