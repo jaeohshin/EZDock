@@ -1,0 +1,56 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555      -6.379   3.501  15.979  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555      -5.445   2.067  16.049  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555      -4.321   2.152  15.292  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555      -4.165   3.345  14.642  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555      -5.216   4.200  14.931  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555      -5.295   5.827  14.368  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555      -3.848   6.065  14.090  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555      -3.394   5.205  13.019  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555      -3.055   3.867  13.710  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555      -6.160   5.873  13.244  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555      -5.858   6.680  15.373  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555      -5.966   0.750  16.997  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555      -5.425   0.994  18.287  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555      -7.398   0.817  16.995  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555      -5.486  -0.545  16.461  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555      -5.365  -1.193  17.213  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555      -4.612  -0.410  15.994  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555      -2.776   2.895  12.649  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555      -2.746   1.995  13.085  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555      -3.548   2.932  12.015  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555      -1.564   3.011  11.841  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555      -1.463   1.927  10.754  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555      -3.349   7.408  13.935  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555      -2.076   7.426  14.764  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555      -1.307   8.596  14.533  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555      -1.915   9.769  15.059  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555      -0.878  10.903  15.178  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8

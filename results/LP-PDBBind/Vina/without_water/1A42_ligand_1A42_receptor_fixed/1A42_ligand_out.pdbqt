@@ -1,0 +1,567 @@
+MODEL 1
+REMARK VINA RESULT:    -6.891      0.000      0.000
+REMARK INTER + INTRA:         -10.548
+REMARK INTER:                  -9.912
+REMARK INTRA:                  -0.636
+REMARK UNBOUND:                -0.636
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555      -6.647   3.350  16.413  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555      -5.833   1.843  16.443  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555      -4.817   1.793  15.544  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555      -4.651   2.937  14.813  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555      -5.580   3.894  15.187  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555      -5.599   5.495  14.548  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555      -4.187   5.591  14.073  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555      -3.952   4.646  13.002  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555      -3.636   3.316  13.718  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555      -6.599   5.567  13.544  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555      -5.951   6.439  15.567  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555      -6.330   0.621  17.523  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555      -7.747   0.607  17.428  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555      -5.747  -0.591  17.027  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555      -5.897   0.898  18.912  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555      -5.426   0.097  19.281  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555      -6.697   1.103  19.477  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555      -3.581   2.276  12.686  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555      -2.957   2.607  11.978  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555      -3.193   1.463  13.118  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555      -4.801   1.848  12.005  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555      -4.610   0.554  11.194  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555      -3.604   6.876  13.780  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555      -2.531   7.044  14.841  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555      -2.798   8.143  15.699  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555      -1.713   9.059  15.777  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555      -1.985  10.288  14.888  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.788      2.796      4.647
+REMARK INTER + INTRA:         -10.399
+REMARK INTER:                  -9.987
+REMARK INTRA:                  -0.412
+REMARK UNBOUND:                -0.636
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555      -4.674   1.314  15.192  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555      -5.813   2.040  16.246  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555      -6.124   3.306  15.867  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555      -5.478   3.736  14.741  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555      -4.649   2.743  14.244  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555      -3.761   2.898  12.776  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555      -4.560   3.970  12.113  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555      -4.469   5.203  12.865  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555      -5.540   5.067  13.968  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555      -2.419   3.230  13.095  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555      -3.734   1.651  12.070  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555      -6.419   1.173  17.582  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555      -7.688   0.695  17.160  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555      -5.490   0.103  17.800  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555      -6.551   2.026  18.785  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555      -5.772   2.650  18.839  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555      -6.574   1.451  19.602  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555      -5.362   6.200  14.881  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555      -5.869   6.967  14.488  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555      -5.778   5.936  15.751  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555      -4.022   6.696  15.190  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555      -4.007   7.684  16.369  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555      -4.428   4.206  10.698  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555      -4.639   5.703  10.552  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555      -5.984   6.022  10.233  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555      -6.221   6.079   8.832  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555      -7.625   6.646   8.548  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.739      1.633      2.288
+REMARK INTER + INTRA:         -10.330
+REMARK INTER:                  -9.405
+REMARK INTRA:                  -0.925
+REMARK UNBOUND:                -0.636
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555      -6.580   3.449  16.309  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555      -5.709   1.975  16.357  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555      -4.648   1.981  15.510  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555      -4.491   3.143  14.807  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555      -5.475   4.057  15.147  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555      -5.526   5.666  14.533  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555      -4.097   5.825  14.132  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555      -3.771   4.910  13.061  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555      -3.438   3.580  13.771  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555      -6.476   5.717  13.480  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555      -5.966   6.578  15.548  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555      -6.211   0.716  17.391  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555      -5.627  -0.457  16.845  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555      -5.668   1.037  18.678  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555      -7.686   0.595  17.443  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555      -7.945  -0.368  17.365  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555      -8.091   1.110  16.687  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555      -3.290   2.562  12.727  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555      -2.364   2.658  12.361  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555      -3.379   1.674  13.178  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555      -4.195   2.543  11.580  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555      -5.022   1.248  11.491  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555      -3.552   7.137  13.889  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555      -3.582   7.274  12.376  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555      -4.428   8.333  11.955  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555      -5.353   7.935  10.952  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555      -6.768   8.439  11.297  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -6.486      3.574      5.262
+REMARK INTER + INTRA:          -9.965
+REMARK INTER:                  -9.480
+REMARK INTRA:                  -0.485
+REMARK UNBOUND:                -0.636
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555      -4.283   1.558  13.207  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555      -4.427   2.253  14.765  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555      -4.330   3.607  14.732  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555      -4.144   4.131  13.482  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555      -4.107   3.124  12.531  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555      -3.991   3.425  10.838  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555      -4.490   4.832  10.800  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555      -3.581   5.706  11.510  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555      -3.999   5.584  12.991  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555      -2.643   3.232  10.438  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555      -4.791   2.488  10.105  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555      -4.666   1.259  16.129  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555      -3.425   1.284  16.819  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555      -5.712   1.886  16.883  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555      -5.030  -0.126  15.750  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555      -4.430  -0.439  15.014  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555      -5.980  -0.148  15.436  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555      -2.990   6.295  13.781  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555      -2.406   5.596  14.197  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555      -2.451   6.838  13.137  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555      -3.395   7.198  14.855  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555      -2.328   8.257  15.182  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555      -4.920   5.417   9.556  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555      -5.871   6.524   9.979  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555      -7.099   6.470   9.269  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555      -7.383   7.673   8.566  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555      -8.883   8.012   8.667  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.149     17.169     19.845
+REMARK INTER + INTRA:          -9.480
+REMARK INTER:                  -8.792
+REMARK INTRA:                  -0.688
+REMARK UNBOUND:                -0.636
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555       7.766  -4.453   5.053  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555       6.059  -4.579   5.109  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555       5.651  -5.787   5.576  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555       6.668  -6.641   5.903  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555       7.898  -6.043   5.680  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555       9.399  -6.789   6.080  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555       8.925  -7.774   7.097  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555       8.050  -8.749   6.483  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555       6.662  -8.073   6.469  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555       9.959  -7.338   4.897  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555      10.327  -5.817   6.578  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555       5.086  -3.271   4.613  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555       5.475  -2.191   5.449  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555       5.426  -3.036   3.241  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555       3.642  -3.562   4.768  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555       3.147  -2.711   4.946  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555       3.508  -4.191   5.535  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555       5.774  -8.933   5.682  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555       5.024  -8.354   5.361  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555       6.305  -9.254   4.898  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555       5.163 -10.115   6.287  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555       4.705  -9.878   7.736  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555       9.862  -8.399   7.995  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555      10.047  -9.794   7.422  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555      10.328 -10.751   8.432  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555       9.925 -12.067   8.072  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555       9.882 -12.214   6.538  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.122      3.501      5.090
+REMARK INTER + INTRA:          -9.442
+REMARK INTER:                  -8.797
+REMARK INTRA:                  -0.645
+REMARK UNBOUND:                -0.636
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555      -3.087   2.176  11.205  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555      -3.727   0.738  11.879  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555      -4.280   0.949  13.101  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555      -4.217   2.244  13.535  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555      -3.596   3.046  12.592  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555      -3.436   4.754  12.759  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555      -4.533   5.012  13.738  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555      -4.238   4.374  15.002  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555      -4.720   2.918  14.826  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555      -2.121   5.041  13.207  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555      -3.604   5.401  11.490  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555      -3.626  -0.731  11.020  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555      -2.309  -1.204  11.262  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555      -4.618  -1.586  11.603  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555      -3.860  -0.543   9.569  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555      -3.713  -1.410   9.093  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555      -3.226   0.144   9.215  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555      -4.270   2.172  16.004  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555      -3.472   1.640  15.720  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555      -3.993   2.849  16.685  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555      -5.173   1.244  16.681  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555      -6.542   1.868  17.003  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555      -5.039   6.348  13.927  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555      -6.542   6.160  14.041  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555      -7.247   6.902  13.058  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555      -6.426   7.285  11.962  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555      -6.914   8.622  11.368  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.001      3.721      7.206
+REMARK INTER + INTRA:          -9.267
+REMARK INTER:                  -8.575
+REMARK INTRA:                  -0.692
+REMARK UNBOUND:                -0.636
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555      -2.288   3.157  10.772  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555      -1.465   4.516  11.410  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555      -1.865   4.809  12.674  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555      -2.826   3.972  13.172  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555      -3.156   2.999  12.242  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555      -4.255   1.713  12.568  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555      -4.193   1.703  14.059  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555      -4.724   2.939  14.592  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555      -3.541   3.929  14.535  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555      -5.513   2.041  12.000  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555      -3.811   0.501  11.944  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555      -0.294   5.326  10.474  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555       0.429   4.293   9.822  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555      -1.033   6.131   9.546  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555       0.608   6.155  11.307  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555       0.761   5.701  12.185  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555       0.191   7.050  11.463  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555      -4.071   5.251  14.879  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555      -3.883   5.392  15.852  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555      -3.555   5.917  14.340  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555      -5.486   5.555  14.677  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555      -5.749   6.353  13.389  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555      -4.670   0.562  14.799  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555      -5.022   1.130  16.164  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555      -5.417   0.116  17.076  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555      -6.278   0.600  18.099  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555      -7.005   1.875  17.630  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.857     16.935     18.938
+REMARK INTER + INTRA:          -9.061
+REMARK INTER:                  -8.534
+REMARK INTRA:                  -0.527
+REMARK UNBOUND:                -0.636
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555      10.379  -7.476   5.819  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555       9.497  -8.755   6.541  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555       8.183  -8.448   6.693  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555       7.837  -7.203   6.243  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555       8.941  -6.548   5.722  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555       8.854  -5.000   4.970  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555       7.405  -4.976   4.613  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555       6.593  -4.978   5.811  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555       6.485  -6.466   6.207  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555       9.280  -4.021   5.905  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555       9.746  -4.934   3.850  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555      10.286 -10.202   6.974  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555       9.598 -11.219   6.260  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555      11.639 -10.053   6.524  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555      10.227 -10.452   8.433  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555      11.136 -10.707   8.765  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555       9.584 -11.195   8.620  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555       5.839  -6.514   7.521  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555       6.269  -7.263   8.026  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555       6.043  -5.647   7.974  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555       4.395  -6.712   7.627  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555       3.610  -5.389   7.666  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555       6.910  -4.033   3.642  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555       6.220  -2.970   4.480  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555       5.069  -2.448   3.835  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555       4.013  -2.157   4.741  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555       4.120  -0.703   5.240  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.734      5.101      6.341
+REMARK INTER + INTRA:          -8.884
+REMARK INTER:                  -8.068
+REMARK INTRA:                  -0.816
+REMARK UNBOUND:                -0.636
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_3 
+REMARK    2  A    between atoms: S1_1  and  N21_20 
+REMARK    3  A    between atoms: N8_8  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  N16_16 
+REMARK    5  A    between atoms: C11_11  and  C12_12 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: N16_16  and  C17_17 
+ROOT
+HETATM    1  S2  BZU A 555      -1.718   2.060  10.625  1.00  7.58    -0.063 SA
+HETATM    2  C3  BZU A 555      -3.221   2.302  11.411  1.00  6.84     0.117 A 
+HETATM    3  C4  BZU A 555      -3.250   3.465  12.110  1.00  8.77     0.043 A 
+HETATM    4  C5  BZU A 555      -2.096   4.195  12.044  1.00 13.41     0.005 A 
+HETATM    5  C6  BZU A 555      -1.158   3.555  11.250  1.00 13.59     0.125 A 
+HETATM    6  S7  BZU A 555       0.376   4.238  10.859  1.00 21.74     0.251 S 
+HETATM    7  N8  BZU A 555       0.076   5.679  11.104  1.00 20.32    -0.202 NA
+HETATM    8  C9  BZU A 555      -0.209   5.903  12.505  1.00 22.21     0.145 C 
+HETATM    9  C10 BZU A 555      -1.704   5.552  12.659  1.00 19.82     0.234 C 
+HETATM   10  O3B BZU A 555       1.356   3.654  11.703  1.00 20.55    -0.205 OA
+HETATM   11  O4B BZU A 555       0.736   3.924   9.508  1.00 19.59    -0.205 OA
+ENDROOT
+BRANCH   2  12
+HETATM   12  S1  BZU A 555      -4.464   1.146  11.257  1.00  6.53     0.245 S 
+HETATM   13  O1A BZU A 555      -4.204   0.494  10.023  1.00  6.71    -0.206 OA
+HETATM   14  O2A BZU A 555      -4.308   0.262  12.374  1.00  2.00    -0.206 OA
+BRANCH  12  15
+HETATM   15  N21 BZU A 555      -5.807   1.773  11.248  1.00  2.77    -0.225 NA
+HETATM   16 1H21 BZU A 555      -5.831   2.520  11.913  1.00 20.00     0.136 HD
+HETATM   17 2H21 BZU A 555      -6.496   1.089  11.491  1.00 20.00     0.136 HD
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+BRANCH   9  18
+HETATM   18  N16 BZU A 555      -2.003   5.571  14.094  1.00 20.39    -0.066 N 
+HETATM   19 1H16 BZU A 555      -2.379   4.672  14.321  1.00 20.00     0.278 HD
+HETATM   20 2H16 BZU A 555      -1.131   5.695  14.568  1.00 20.00     0.278 HD
+BRANCH  18  21
+HETATM   21  C17 BZU A 555      -2.924   6.563  14.644  1.00 20.26     0.228 C 
+HETATM   22  C18 BZU A 555      -4.292   5.967  15.018  1.00 20.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   9  18
+BRANCH   7  23
+HETATM   23  C11 BZU A 555       0.942   6.702  10.573  1.00 27.56     0.134 C 
+BRANCH  23  24
+HETATM   24  C12 BZU A 555       1.709   7.201  11.785  1.00 32.43     0.183 C 
+BRANCH  24  25
+HETATM   25  O13 BZU A 555       3.073   6.812  11.749  1.00 35.55    -0.390 OA
+BRANCH  25  26
+HETATM   26  C14 BZU A 555       3.661   6.739  13.042  1.00 36.07     0.163 C 
+HETATM   27  C15 BZU A 555       4.157   5.307  13.325  1.00 37.64     0.033 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 8
+ENDMDL

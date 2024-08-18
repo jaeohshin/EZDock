@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  N_4 
+REMARK    2  A    between atoms: C_3  and  O_5 
+REMARK       I    between atoms: N_6  and  C_16 
+REMARK    3  A    between atoms: N_6  and  N_7 
+REMARK    4  A    between atoms: C_12  and  C_13 
+REMARK    5  A    between atoms: C_12  and  C_16 
+ROOT
+HETATM    1  N   UNL     1      10.203  -0.312  24.147  1.00  0.00    -0.254 N 
+HETATM    2  O   UNL     1       8.563   1.233  23.982  1.00  0.00    -0.271 OA
+HETATM    3  C   UNL     1       9.078   0.206  23.652  1.00  0.00     0.245 C 
+HETATM    4  H   UNL     1      10.592   0.038  25.033  1.00  0.00     0.191 HD
+ENDROOT
+BRANCH   1   5
+HETATM    5  N   UNL     1      10.804  -1.423  23.658  1.00  0.00    -0.230 N 
+HETATM    6  N   UNL     1      11.891  -1.756  24.188  1.00  0.00    -0.253 N 
+ATOM      7  HN  UNL     1      12.760  -1.595  23.678  1.00  0.00     0.203 HD
+ATOM      8  HN  UNL     1      10.393  -1.962  22.896  1.00  0.00     0.209 HD
+BRANCH   6   9
+HETATM    9  N   UNL     1      11.945  -2.322  25.416  1.00  0.00    -0.234 NA
+HETATM   10  H   UNL     1      11.753  -3.314  25.337  1.00  0.00     0.144 HD
+HETATM   11  H   UNL     1      11.510  -1.765  26.132  1.00  0.00     0.144 HD
+ENDBRANCH   6   9
+ENDBRANCH   1   5
+BRANCH   3  12
+HETATM   12  C   UNL     1       8.307  -0.763  22.512  1.00  0.00     0.106 C 
+HETATM   13  C   UNL     1       6.818  -0.616  23.171  1.00  0.00     0.025 C 
+BRANCH  12  14
+HETATM   14  C   UNL     1       7.779  -1.318  21.015  1.00  0.00    -0.049 C 
+HETATM   15  C   UNL     1       8.376  -2.284  20.363  1.00  0.00     0.134 C 
+HETATM   16  C   UNL     1       6.630  -0.832  20.230  1.00  0.00     0.046 C 
+BRANCH  15  17
+HETATM   17  O   UNL     1       9.495  -2.047  19.688  1.00  0.00    -0.372 OA
+HETATM   18  H   UNL     1      10.039  -1.395  20.151  1.00  0.00     0.216 HD
+ENDBRANCH  15  17
+ENDBRANCH  12  14
+ENDBRANCH   3  12
+TORSDOF 5

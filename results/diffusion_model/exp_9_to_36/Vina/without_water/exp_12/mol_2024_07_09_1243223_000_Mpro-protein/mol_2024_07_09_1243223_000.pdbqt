@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_4 
+REMARK    2  A    between atoms: C_5  and  C_10 
+REMARK    3  A    between atoms: C_6  and  O_9 
+REMARK    4  A    between atoms: C_10  and  C_11 
+REMARK       I    between atoms: C_11  and  N_13 
+REMARK    5  A    between atoms: N_13  and  C_15 
+ROOT
+HETATM    1  C   UNL     1      11.063  -0.999  23.055  1.00  0.00     0.080 C 
+HETATM    2  C   UNL     1      11.836  -0.308  23.989  1.00  0.00     0.052 C 
+HETATM    3  C   UNL     1       9.703  -0.912  22.744  1.00  0.00     0.119 C 
+ENDROOT
+BRANCH   3   4
+HETATM    4  C   UNL     1       9.201  -1.768  23.536  1.00  0.00    -0.036 C 
+HETATM    5  C   UNL     1       8.805  -2.642  24.294  1.00  0.00     0.011 C 
+BRANCH   5   6
+HETATM    6  N   UNL     1       8.153  -3.431  24.911  1.00  0.00    -0.354 N 
+HETATM    7  C   UNL     1       8.194  -4.095  26.176  1.00  0.00     0.157 C 
+ATOM      8  HN  UNL     1       7.328  -3.712  24.381  1.00  0.00     0.169 HD
+ENDBRANCH   5   6
+ENDBRANCH   3   4
+BRANCH   3   9
+HETATM    9  C   UNL     1       9.063  -0.112  21.517  1.00  0.00     0.267 C 
+HETATM   10  O   UNL     1       9.726   0.778  21.050  1.00  0.00    -0.266 OA
+HETATM   11  N   UNL     1       7.874  -0.507  21.061  1.00  0.00    -0.322 N 
+ATOM     12  HN  UNL     1       7.566  -1.416  21.407  1.00  0.00     0.169 HD
+BRANCH  11  13
+HETATM   13  C   UNL     1       7.093   0.040  20.297  1.00  0.00     0.035 A 
+HETATM   14  C   UNL     1       6.814   0.160  18.731  1.00  0.00     0.029 A 
+HETATM   15  C   UNL     1       5.577   0.714  19.141  1.00  0.00     0.004 A 
+HETATM   16  C   UNL     1       5.803   0.602  20.458  1.00  0.00     0.029 A 
+ENDBRANCH  11  13
+ENDBRANCH   3   9
+BRANCH   1  17
+HETATM   17  O   UNL     1      11.742  -1.924  22.360  1.00  0.00    -0.360 OA
+HETATM   18  H   UNL     1      12.628  -1.657  22.086  1.00  0.00     0.217 HD
+ENDBRANCH   1  17
+TORSDOF 5

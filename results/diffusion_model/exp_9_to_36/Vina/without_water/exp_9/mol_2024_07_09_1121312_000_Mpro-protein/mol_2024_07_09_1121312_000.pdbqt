@@ -1,0 +1,45 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_7 
+REMARK    2  A    between atoms: O_1  and  C_10 
+REMARK    3  A    between atoms: O_3  and  C_10 
+REMARK    4  A    between atoms: O_3  and  C_14 
+REMARK       I    between atoms: N_5  and  C_8 
+REMARK    5  A    between atoms: C_7  and  C_8 
+REMARK    6  A    between atoms: O_9  and  C_15 
+REMARK    7  A    between atoms: C_13  and  C_14 
+REMARK    8  A    between atoms: C_13  and  C_15 
+ROOT
+HETATM    1  O   UNL     1      10.483  -0.638  21.420  1.00  0.00    -0.288 OA
+ENDROOT
+BRANCH   1   2
+HETATM    2  C   UNL     1       9.276  -1.027  21.105  1.00  0.00     0.353 C 
+HETATM    3  O   UNL     1       8.631  -0.534  20.237  1.00  0.00    -0.254 OA
+BRANCH   2   4
+HETATM    4  C   UNL     1       8.848  -2.303  21.913  1.00  0.00     0.316 C 
+HETATM    5  N   UNL     1       7.552  -2.622  21.911  1.00  0.00    -0.357 N 
+HETATM    6  H   UNL     1       6.845  -2.106  22.399  1.00  0.00     0.162 HD
+HETATM    7  C   UNL     1       7.140  -3.880  21.328  1.00  0.00     0.149 C 
+HETATM    8  O   UNL     1       9.665  -2.958  22.480  1.00  0.00    -0.262 OA
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+HETATM    9  C   UNL     1      10.902   0.554  22.055  1.00  0.00     0.348 C 
+BRANCH   9  10
+HETATM   10  O   UNL     1       9.947   1.420  22.600  1.00  0.00    -0.366 OA
+BRANCH  10  11
+HETATM   11  C   UNL     1       8.799   1.297  22.975  1.00  0.00     0.172 C 
+BRANCH  11  12
+HETATM   12  C   UNL     1       8.000   0.270  23.296  1.00  0.00     0.052 C 
+BRANCH  12  13
+HETATM   13  C   UNL     1       8.821  -0.737  24.158  1.00  0.00     0.166 C 
+BRANCH  13  14
+HETATM   14  O   UNL     1       8.921  -0.098  25.389  1.00  0.00    -0.401 OA
+HETATM   15  H   UNL     1       8.658  -0.638  26.105  1.00  0.00     0.209 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 8

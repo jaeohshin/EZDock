@@ -32,11 +32,6 @@ This repository contains a comprehensive pipeline designed to evaluate protein-l
 - **Error Rate Analysis**: Monitors the pipeline's performance by calculating the error rate.
 - **Docking Results Evaluation**: Benchmarks the computed binding free energies against experimental values or cross-validates them against other docking platforms.
 
-<font color='red'>
-### Testing the pipeline
-
-To test the robustness of this pipeline, we use the PDB IDs from LeakyPDB to obtain some free energy of binding results. The pipeline has error traps set up to capture and record any error encountered during the experiment. We will inspect the output files to investigate any causes of failure and seek to improve the pipeline this way.
-
 ## Installation
 
 1. **Clone the Repository**:
@@ -67,19 +62,30 @@ Example
 bash
 复制代码
 python mpro_oe_w_water_v2_error_handling.py --pdb_id 1abc --ligand_file ligand.mol2
-Output
-The results of the docking experiments are stored in the results/ directory, with each run creating a timestamped folder containing:
 
-Docking Scores: A CSV file with the docking scores and any errors.
-Prepared Files: The prepared receptor and ligand files.
-Logs: Detailed logs of the docking process for troubleshooting.
-Contributing
+## Output
+
+A selected number of results of the docking experiments are stored in the results/ directory, with each run creating a folder containing:
+
+- Docking Scores: A CSV file with the docking scores and any errors.
+- Starting Files: The files that used as input.
+- Prepared Files: The prepared receptor and ligand files.
+- Output Files: The docked ligand pose(s). (For Vina, this is {exp}_out.pdbqt; for OE, this is {exp}_docked)
+- Logs: Detailed logs of the docking process for troubleshooting.
+
+## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request with your improvements or bug fixes.
 
-## Acknowledgments
-Vina: AutoDock Vina
-OpenEye: OpenEye Scientific Software
-References
-Refer to the detailed documentation provided within the docs/ folder for a complete breakdown of each component in the pipeline.
+<span style="color:red">
 
-</font>
+## Data for MSc Project
+
+[Click here](https://uoe-my.sharepoint.com/:u:/g/personal/s1732775_ed_ac_uk/EZn9Vb2VxoxOont6QMtDSg0BNgIGWPrm_rcKl6ZrWCAIGw?e=N2TKmb) to see the data files generated for the experiments conducted for robustness testing and for the diffusion model-generated molecules.
+
+</span>
+
+## Acknowledgments
+
+[AutoDock Vina](https://vina.scripps.edu/)
+
+[OpenEye Toolkits: Chemgauss4](https://docs.eyesopen.com/toolkits/cpp/dockingtk/scoring.html#section-scoring-chemgauss4)

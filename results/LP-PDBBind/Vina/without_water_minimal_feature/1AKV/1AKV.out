@@ -1,0 +1,40 @@
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Scoring function : vina
+Rigid receptor: 1AKV_receptor.pdbqt
+Ligand: 1AKV_ligand.pdbqt
+Grid center: ligand center (autobox)
+Grid size  : ligand size + 4 A in each dimension (autobox)
+Grid space : 0.375
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Estimated Free Energy of Binding   : -7.215 (kcal/mol) [=(1)+(2)+(3)-(4)]
+(1) Final Intermolecular Energy    : -11.221 (kcal/mol)
+    Ligand - Receptor              : -11.221 (kcal/mol)
+    Ligand - Flex side chains      : 0.000 (kcal/mol)
+(2) Final Total Internal Energy    : -0.642 (kcal/mol)
+    Ligand                         : -0.642 (kcal/mol)
+    Flex   - Receptor              : 0.000 (kcal/mol)
+    Flex   - Flex side chains      : 0.000 (kcal/mol)
+(3) Torsional Free Energy          : 4.007 (kcal/mol)
+(4) Unbound System's Energy        : -0.642 (kcal/mol)

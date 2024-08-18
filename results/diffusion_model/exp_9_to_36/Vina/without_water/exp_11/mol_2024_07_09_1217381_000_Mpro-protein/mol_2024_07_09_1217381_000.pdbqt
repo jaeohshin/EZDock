@@ -1,0 +1,46 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  N_4 
+REMARK    3  A    between atoms: N_4  and  C_5 
+REMARK    4  A    between atoms: C_5  and  C_6 
+REMARK    5  A    between atoms: C_6  and  O_8 
+REMARK    6  A    between atoms: O_8  and  N_9 
+REMARK    7  A    between atoms: N_11  and  C_13 
+REMARK    8  A    between atoms: C_14  and  N_15 
+ROOT
+HETATM    1  N   UNL     1      10.163  -0.575  21.114  1.00  0.00    -0.207 N 
+ATOM      2  HN  UNL     1      11.118  -0.929  21.050  1.00  0.00     0.216 HD
+HETATM    3  N   UNL     1       9.631  -0.457  19.986  1.00  0.00    -0.277 N 
+ATOM      4  HN  UNL     1      10.184  -0.687  19.160  1.00  0.00     0.189 HD
+ENDROOT
+BRANCH   1   5
+HETATM    5  O   UNL     1       9.815  -0.366  22.313  1.00  0.00    -0.263 OA
+BRANCH   5   6
+HETATM    6  C   UNL     1      10.784  -0.450  23.298  1.00  0.00     0.222 C 
+BRANCH   6   7
+HETATM    7  C   UNL     1      10.577  -1.882  23.781  1.00  0.00     0.144 C 
+BRANCH   7   8
+HETATM    8  N   UNL     1       9.438  -2.045  24.683  1.00  0.00    -0.399 N 
+HETATM    9  H   UNL     1       9.499  -1.184  25.231  1.00  0.00     0.155 HD
+BRANCH   8  10
+HETATM   10  C   UNL     1       8.400  -2.989  24.798  1.00  0.00     0.282 C 
+BRANCH  10  11
+HETATM   11  O   UNL     1       8.524  -4.116  25.694  1.00  0.00    -0.383 OA
+HETATM   12  H   UNL     1       9.384  -4.294  25.506  1.00  0.00     0.211 HD
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   3  13
+HETATM   13  C   UNL     1       8.409  -0.056  19.820  1.00  0.00     0.199 C 
+HETATM   14  N   UNL     1       7.773   0.065  20.935  1.00  0.00    -0.362 N 
+ATOM     15  HN  UNL     1       8.342   0.177  21.774  1.00  0.00     0.166 HD
+BRANCH  14  16
+HETATM   16  C   UNL     1       6.464   0.059  21.107  1.00  0.00     0.078 C 
+HETATM   17  C   UNL     1       5.655   0.409  20.065  1.00  0.00     0.029 C 
+ENDBRANCH  14  16
+ENDBRANCH   3  13
+TORSDOF 8

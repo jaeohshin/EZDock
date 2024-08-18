@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_5  and  C_7 
+REMARK    2  A    between atoms: C_6  and  C_11 
+REMARK    3  A    between atoms: C_9  and  C_19 
+REMARK    4  A    between atoms: C_12  and  C_19 
+REMARK    5  A    between atoms: O_15  and  N_17 
+ROOT
+HETATM    1  N   UNL     1       7.728  -1.181  22.197  1.00  0.00    -0.283 N 
+ATOM      2  HN  UNL     1       7.322  -0.401  21.680  1.00  0.00     0.188 HD
+HETATM    3  N   UNL     1       7.920  -2.796  23.751  1.00  0.00    -0.259 N 
+HETATM    4  C   UNL     1       9.104  -2.248  23.697  1.00  0.00     0.120 C 
+HETATM    5  C   UNL     1       8.979  -1.297  22.612  1.00  0.00     0.093 C 
+HETATM    6  H   UNL     1       6.196  -2.408  22.586  1.00  0.00     0.208 HD
+HETATM    7  N   UNL     1       7.157  -2.204  22.562  1.00  0.00    -0.238 N 
+ENDROOT
+BRANCH   5   8
+HETATM    8  C   UNL     1      10.129  -0.612  22.170  1.00  0.00     0.023 C 
+HETATM    9  C   UNL     1      11.320  -0.976  22.553  1.00  0.00     0.099 C 
+HETATM   10 CL   UNL     1      12.650  -1.521  22.411  1.00  0.00    -0.096 Cl
+BRANCH   8  11
+HETATM   11  C   UNL     1      10.224   0.368  21.201  1.00  0.00     0.128 C 
+HETATM   12  N   UNL     1       9.252   0.682  20.440  1.00  0.00    -0.278 N 
+ATOM     13  HN  UNL     1       9.609   0.938  19.519  1.00  0.00     0.193 HD
+BRANCH  12  14
+HETATM   14  O   UNL     1       7.960   0.784  20.448  1.00  0.00    -0.286 OA
+HETATM   15  C   UNL     1       7.575   1.995  19.872  1.00  0.00     0.237 C 
+ENDBRANCH  12  14
+ENDBRANCH   8  11
+ENDBRANCH   5   8
+BRANCH   4  16
+HETATM   16  C   UNL     1      10.128  -2.682  24.630  1.00  0.00     0.292 C 
+HETATM   17  O   UNL     1       9.924  -3.241  25.677  1.00  0.00    -0.300 OA
+ENDBRANCH   4  16
+BRANCH   3  18
+HETATM   18  C   UNL     1       7.360  -3.498  24.826  1.00  0.00     0.265 C 
+HETATM   19 CL   UNL     1       6.398  -4.826  24.166  1.00  0.00    -0.107 Cl
+ENDBRANCH   3  18
+TORSDOF 5
