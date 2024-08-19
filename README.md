@@ -51,6 +51,15 @@ Go to [step_1b_docking_complex_to_dG.ipynb](https://github.com/meyresearch/EZDoc
 ## Using the pipeline 
 The pipeline is done within the python script [EZDock_vina.py](https://github.com/meyresearch/EZDock/blob/main/EZDock_vina.py) and [EZDock_OE.py](https://github.com/meyresearch/EZDock/blob/main/EZDock_OE.py). 
 
+### Set up your OE license
+Before moving on to docking, you need to set up the license path for your OpenEye Toolkits by changing the following:
+
+```
+license_path = '/home/PATH_TO_LICENSE/oe_license.txt'
+```
+This is required for both the Vina and the OE pipelines, as some OE functionalities are used to help split complexes into proteins and ligands. 
+
+### Running the pipeline
 To run this pipeline, you need to edit the python script and specify the paths for the ligand, receptor and reference complex you wish to use for docking, specifically these few lines:
 ```
 all_ligands = glob.glob('Ligand_Folder/*.sdf') # change this to the path where the ligands are stored
@@ -97,15 +106,17 @@ A selected number of results of the docking experiments are stored in the result
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request with your improvements or bug fixes.
 
-<span style="color:red">
 
 ## Data for MSc Project
 
-[Click here](https://uoe-my.sharepoint.com/:u:/g/personal/s1732775_ed_ac_uk/EZn9Vb2VxoxOont6QMtDSg0BNgIGWPrm_rcKl6ZrWCAIGw?e=N2TKmb) to see the data files generated for the experiments conducted for robustness testing and for the diffusion model-generated molecules. You will need your UoE login. 
+### Download data files 
+Selected datasets are available in this Git repo, but you can [click here](https://uoe-my.sharepoint.com/:u:/g/personal/s1732775_ed_ac_uk/EZn9Vb2VxoxOont6QMtDSg0BNgIGWPrm_rcKl6ZrWCAIGw?e=N2TKmb) to see all the data files generated for the experiments conducted for robustness testing and for the diffusion model-generated molecules. You will need your UoE login. 
 
 Note: this is 17 GB in a zipped file!
 
-</span>
+### Codes for diffusion model for molecular generation and docking these molecules
+See the [SILVR_w_EDM](https://github.com/meyresearch/EZDock/blob/main/EZDock_vina.py) and [EZDock_OE.py](https://github.com/meyresearch/EZDock/blob/main/SILVR_w_EDM/) folder for all the codes used. This is mostly codes from [SILVR](https://github.com/meyresearch/SILVR) except for the docking parts. 
+
 
 ## Acknowledgments
 

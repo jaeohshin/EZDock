@@ -6,8 +6,9 @@ os.chmod('./extract_ligand.sh', 0o755) # giving permissions to run extract_ligan
 os.chmod('./ADFRsuite/ADFRsuite_x86_64Linux_1.0', 0o755) # giving permissions to run ADFRsuite
 
 # make sure to set the OE_LICENSE environment variable, the full path should be included, or else openeye will kill your kernel!
-os.environ['OE_LICENSE'] = '/home/s1732775/oe_license.txt'
-os.chmod('/home/s1732775/oe_license.txt', 0o755)
+license_path = '/home/s1732775/oe_license.txt'
+os.environ['OE_LICENSE'] = license_path
+os.chmod(license_path, 0o755)
 
 import os
 from Bio.PDB import PDBList, PDBParser, Select, PDBIO
@@ -901,7 +902,7 @@ def vina_process_lig_prot(lig_file, prot_file, complex_file, preserve_water=Fals
     complex_name = os.path.splitext(complex_file)[0]
 
     try:      
-        os.environ['OE_LICENSE'] = '/home/s1732775/oe_license.txt' # change this to your OE_LICENSE path
+        os.environ['OE_LICENSE'] = license_path # change this to your OE_LICENSE path
 
         # prepare the ligand and receptor for Vina i.e. convert to pdbqt format
         prep = DockingPrepper('.',
@@ -986,7 +987,7 @@ def oe_process_lig_prot(lig_file, prot_file, complex_file, preserve_water=False,
     complex_name = os.path.splitext(complex_file)[0]
 
     try:
-        os.environ['OE_LICENSE'] = '/home/s1732775/oe_license.txt' # change this to your OE_LICENSE path
+        os.environ['OE_LICENSE'] = license_path # change this to your OE_LICENSE path
         
         # prepare the ligand and receptor
         prep = DockingPrepper('.',
