@@ -13,22 +13,46 @@ This repository contains a comprehensive pipeline designed to evaluate protein-l
 
 ## Pipeline Stages
 
+Overall, the pipeline consists of 3 stages (not including evaluation of results): 
+
+![pipeline_diagram_overall](pipeline_diagrams/pipeline_diagram_overall.png)
+
 ### 1. Download and Split Protein-Ligand Complex (Optional)
+
 - **Download**: Retrieves protein-ligand complexes from the PDB database.
 - **Splitting**: Separates the complex into individual protein (receptor) and ligand files.
 - **Fixing Receptor Structure**: Optional fixing of the receptor file for docking purposes, including adding missing residues and hydrogens.
+
+![pipeline_diagram_download](pipeline_diagrams/pipeline_diagram_download.png)
 
 ### 2. Docking Preparation
 - **Receptor Preparation**: Prepares the receptor file with the necessary modifications (hydrogen addition, metal ion preservation, etc.) for docking.
 - **Ligand Preparation**: Ensures the ligand file is in the correct format and properly configured for interaction with the binding site.
 - **Design Unit Creation (OE Only)**: Generates design units from the protein-ligand complex for OpenEye docking.
 
+#### Vina pipeline: 
+
+![pipeline_diagram_vina_prep](pipeline_diagrams/pipeline_diagram_vina_prep.png)
+
+#### OE pipeline: 
+
+![pipeline_diagram_oe_prep](pipeline_diagrams/pipeline_diagram_oe_prep.png)
+
+
 ### 3. Docking and Scoring
 - **Docking**: Executes the docking experiments using Vina or OE.
 - **Scoring**: Extracts and records the binding scores, such as ΔG (Vina) or Chemgauss4 (OE), into a CSV file.
 - **Data Storage**: Systematically stores all inputs, outputs, and intermediate files, ensuring reproducibility.
 
-### 4. Evaluation
+#### Vina pipeline: 
+
+![pipeline_diagram_vina_score](pipeline_diagrams/pipeline_diagram_vina_score.png)
+
+#### OE pipeline: 
+
+![pipeline_diagram_oe_score](pipeline_diagrams/pipeline_diagram_oe_score.png)
+
+### 4. Evaluation (not part of the pipeline)
 - **Error Rate Analysis**: Monitors the pipeline's performance by calculating the error rate.
 - **Docking Results Evaluation**: Benchmarks the computed binding free energies against experimental values or cross-validates them against other docking platforms.
 
@@ -88,6 +112,7 @@ vina_process_lig_prot(ligand_file,
                         preserve_metal=True, # default is True
                         csv_out_file='oe_docking_data.csv') # output csv file
 ```
+
 ## Jupyter Notebooks
 For a detailed explanation of the pipeline codes and how each part works, please visit [step_1b_docking_complex_to_dG.ipynb](https://github.com/meyresearch/EZDock/blob/main/jupyter_notebooks/step_1b_docking_complex_to_dG.ipynb).
 
@@ -117,7 +142,7 @@ Contributions are welcome! Please fork this repository and submit a pull request
 ### Download data files 
 Selected datasets are available in this Git repo, but you can [click here](https://uoe-my.sharepoint.com/:u:/g/personal/s1732775_ed_ac_uk/EZn9Vb2VxoxOont6QMtDSg0BNgIGWPrm_rcKl6ZrWCAIGw?e=N2TKmb) to see all the data files generated for the experiments conducted for robustness testing and for the diffusion model-generated molecules. You will need your UoE login. 
 
-Note: this is 17 GB in a zipped file!
+**Note: this is 17 GB in a zipped file!**
 
 ### Codes for diffusion model for molecular generation and docking these molecules
 See the [SILVR_w_EDM](https://github.com/meyresearch/EZDock/blob/main/SILVR_w_EDM/) and [EZDock_OE.py](https://github.com/meyresearch/EZDock/blob/main/EZDock_vina.py) folder for all the codes used. This is mostly codes from [SILVR](https://github.com/meyresearch/SILVR) except for the docking parts. 
