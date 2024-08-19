@@ -88,6 +88,11 @@ vina_process_lig_prot(ligand_file,
                         preserve_metal=True, # default is True
                         csv_out_file='oe_docking_data.csv') # output csv file
 ```
+## Jupyter Notebooks
+For a detailed explanation of the pipeline codes and how each part works, please visit [step_1b_docking_complex_to_dG.ipynb](https://github.com/meyresearch/EZDock/blob/main/jupyter_notebooks/step_1b_docking_complex_to_dG.ipynb).
+
+To see how the figures in the [figures](https://github.com/meyresearch/EZDock/tree/main/figures) folder were generated and how the data was cleaned, visit [step_2_docking_stats_plots.ipynb](https://github.com/meyresearch/EZDock/blob/main/jupyter_notebooks/step_2_docking_stats_plots.ipynb).
+
 
 ## Output
 
@@ -115,7 +120,7 @@ Selected datasets are available in this Git repo, but you can [click here](https
 Note: this is 17 GB in a zipped file!
 
 ### Codes for diffusion model for molecular generation and docking these molecules
-See the [SILVR_w_EDM](https://github.com/meyresearch/EZDock/blob/main/EZDock_vina.py) and [EZDock_OE.py](https://github.com/meyresearch/EZDock/blob/main/SILVR_w_EDM/) folder for all the codes used. This is mostly codes from [SILVR](https://github.com/meyresearch/SILVR) except for the docking parts. 
+See the [SILVR_w_EDM](https://github.com/meyresearch/EZDock/blob/main/SILVR_w_EDM/) and [EZDock_OE.py](https://github.com/meyresearch/EZDock/blob/main/EZDock_vina.py) folder for all the codes used. This is mostly codes from [SILVR](https://github.com/meyresearch/SILVR) except for the docking parts. 
 
 
 ## Acknowledgments
