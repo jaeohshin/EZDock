@@ -594,18 +594,18 @@ def split_sdf(input_sdf):
     return output
 
 ################################ VINA PIPELINE ################################
-hif2a_sdf = "input_files/hif2a_ligands.sdf"
+hif2a_sdf = "mcl1_syk_hif2a/hif2a_ligands.sdf"
 lig_files = split_sdf(hif2a_sdf)
 
-mcl1_sdf = "input_files/mcl1_ligands.sdf"
+mcl1_sdf = "mcl1_syk_hif2a/mcl1_ligands.sdf"
 lig_files = split_sdf(mcl1_sdf)
 
-syk_sdf = "input_files/syk_ligands.sdf"
+syk_sdf = "mcl1_syk_hif2a/syk_ligands.sdf"
 lig_files = split_sdf(syk_sdf)
 
 import glob
 # hif2a
-all_ligands = glob.glob('input_files/hif2a_ligands*.sdf') 
+all_ligands = glob.glob('mcl1_syk_hif2a/hif2a_ligands*.sdf') 
 
 for ligand_file in all_ligands:
     
@@ -614,7 +614,7 @@ for ligand_file in all_ligands:
     ligand_file = os.path.basename(ligand_file)
 
     receptor_file = 'hif2a_protein.pdb'
-    os.system(f'cp input_files/{receptor_file} .') 
+    os.system(f'cp mcl1_syk_hif2a/{receptor_file} .') 
 
     vina_process_lig_prot(ligand_file, 
                         receptor_file, 
@@ -623,7 +623,7 @@ for ligand_file in all_ligands:
                         csv_out_file='hif2a_vina_docking_data.csv')
 
 # mcl1
-all_ligands = glob.glob('input_files/mcl1_ligands*.sdf')
+all_ligands = glob.glob('mcl1_syk_hif2a/mcl1_ligands*.sdf')
 
 for ligand_file in all_ligands:
     
@@ -632,7 +632,7 @@ for ligand_file in all_ligands:
     ligand_file = os.path.basename(ligand_file)
 
     receptor_file = 'mcl1_protein.pdb'
-    os.system(f'cp input_files/{receptor_file} .') 
+    os.system(f'cp mcl1_syk_hif2a/{receptor_file} .') 
 
     vina_process_lig_prot(ligand_file, 
                         receptor_file, 
@@ -641,7 +641,7 @@ for ligand_file in all_ligands:
                         csv_out_file='mcl1_vina_docking_data.csv')
 
 # syk
-all_ligands = glob.glob('input_files/syk_ligands*.sdf')
+all_ligands = glob.glob('mcl1_syk_hif2a/syk_ligands*.sdf')
 
 for ligand_file in all_ligands:
     
@@ -650,7 +650,7 @@ for ligand_file in all_ligands:
     ligand_file = os.path.basename(ligand_file)
 
     receptor_file = 'syk_protein.pdb'
-    os.system(f'cp input_files/{receptor_file} .') 
+    os.system(f'cp mcl1_syk_hif2a/{receptor_file} .') 
 
     vina_process_lig_prot(ligand_file, 
                         receptor_file, 
