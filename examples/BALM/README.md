@@ -28,7 +28,7 @@ python mpro_vina_water_v2_2.py
 The input files are stored in the following folders, which the individual scripts call from:
 
 - Reference complexes (naming convention: `` {target}_protein.pdb ``) and ligands (`` {target}_ligands_{i}.sdf ``) for MCL1, SYK, and HIF2A: [mcl1_syk_hif2a](https://github.com/meyresearch/EZDock/tree/main/examples/BALM/mcl1_syk_hif2a/)
-- Reference complexes for Mpro docking: [Mpro_complexes](https://github.com/meyresearch/EZDock/tree/main/examples/BALM/Mpro_complexes)
+- Reference complex `` Mpro-protein.pdb `` for Mpro docking: [Mpro_complexes](https://github.com/meyresearch/EZDock/tree/main/examples/BALM/Mpro_complexes),
 - Mpro ligands to dock to the protein: [Updated_Mpro_ligands](https://github.com/meyresearch/EZDock/tree/main/examples/BALM/Updated_Mpro_ligands)
 
 For LP-PDBBind, the input data is stored in the CSV file [leakypdb.csv](https://github.com/meyresearch/EZDock/blob/main/examples/BALM/leakypdb_test.csv) as a list of PDB IDs, which the script calls from to download the necessary protein-ligand complex files before continuing to process the files accordingly in the same way that the other scripts do.
