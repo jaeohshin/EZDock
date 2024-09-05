@@ -27,7 +27,7 @@ python mpro_vina_water_v2_2.py
 
 The input files are stored in the following folders, which the individual scripts call from:
 
-- Reference complexes (naming convention: `` {target}_protein.pdb ``) and ligands (`` {target}_ligands{i}.sdf ``) for MCL1, SYK, and HIF2A: [mcl1_syk_hif2a](https://github.com/meyresearch/EZDock/tree/main/examples/BALM/mcl1_syk_hif2a/)
+- Reference complexes (naming convention: `` {target}_protein.pdb ``) and ligands (`` {target}_ligands_{i}.sdf ``) for MCL1, SYK, and HIF2A: [mcl1_syk_hif2a](https://github.com/meyresearch/EZDock/tree/main/examples/BALM/mcl1_syk_hif2a/)
 - Reference complexes for Mpro docking: [Mpro_complexes](https://github.com/meyresearch/EZDock/tree/main/examples/BALM/Mpro_complexes)
 - Mpro ligands to dock to the protein: [Updated_Mpro_ligands](https://github.com/meyresearch/EZDock/tree/main/examples/BALM/Updated_Mpro_ligands)
 
