@@ -6,7 +6,8 @@ os.chmod('./extract_ligand.sh', 0o755) # giving permissions to run extract_ligan
 os.chmod('./ADFRsuite/ADFRsuite_x86_64Linux_1.0', 0o755) # giving permissions to run ADFRsuite
 
 # make sure to set the OE_LICENSE environment variable, the full path should be included, or else openeye will kill your kernel!
-license_path = '/home/s1732775/oe_license.txt'
+#license_path = '/home/s1732775/oe_license.txt'
+lincense_path = '/data/work/EZDock/OpenEye/oe_license.txt'
 os.environ['OE_LICENSE'] = license_path
 os.chmod(license_path, 0o755)
 
