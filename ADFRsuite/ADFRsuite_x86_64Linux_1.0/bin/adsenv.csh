@@ -1,7 +1,7 @@
 #!/bin/csh
 ######
 ## Set some environment variables.
-setenv ADS_ROOT /home/ian/msc_project/docking/ADFRsuite/ADFRsuite_x86_64Linux_1.0
+setenv ADS_ROOT /data/work/EZDock/ADFRsuite/ADFRsuite_x86_64Linux_1.0
 
 ########
 ## plaform we run on

@@ -1,4 +1,4 @@
-adsroot = '/home/ian/msc_project/docking/ADFRsuite/ADFRsuite_x86_64Linux_1.0'
+adsroot = '/data/work/EZDock/ADFRsuite/ADFRsuite_x86_64Linux_1.0'
 ################################################################################
 ##
 ## This library is free software; you can redistribute it and/or

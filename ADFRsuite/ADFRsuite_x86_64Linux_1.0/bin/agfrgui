@@ -6,7 +6,7 @@
 
 ######
 ## Set some environment variables.
-ADS_ROOT="/home/ian/msc_project/docking/ADFRsuite/ADFRsuite_x86_64Linux_1.0" 
+ADS_ROOT="/data/work/EZDock/ADFRsuite/ADFRsuite_x86_64Linux_1.0" 
 export ADS_ROOT
 
 ########
